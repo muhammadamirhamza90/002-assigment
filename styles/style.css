@@ -604,6 +604,52 @@ button {
 }
 
 
+
+.journey__container {
+    background-color: whitesmoke;
+    position: relative;
+    margin-top: 100px;
+}
+
+.journey__container .section__container .section__title,
+.section__subtitle {
+    text-align: center;
+}
+
+.journey__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.country__card {
+    background-color: rgba(173, 216, 230, 0.24);
+}
+
+.country__card img {
+    width: 400px;
+    height: 200px;
+}
+
+.country__name {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: orange;
+    cursor: pointer;
+}
+
+.country__name i {
+    font-size: 1.2rem;
+}
+
+.country__name span {
+    font-style: italic;
+}
+
+
 .footer {
     width: 100%;
     height: 502px;
@@ -1055,6 +1101,16 @@ footer p {
         top: 0;
         left: 0;
         font-size: 20px;
+    }
+
+
+    .journey__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .country__card img {
+        width: 80%;
+
     }
 
     .footer {
